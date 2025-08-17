@@ -24,7 +24,50 @@ const Header = () => {
   return (
     <header className="header">
       {/* El resto de tu JSX permanece igual */}
-      ...
+      <div className="header__logo">
+        <a href="/">mariaordaz</a>
+      </div>
+      
+      <nav className="header__nav">
+        <ul className="header__nav-list">
+          <li className="header__nav-item">
+            <a 
+              href="#home" 
+              className={activeLink === 'home' ? 'active' : ''}
+              onClick={() => setActiveLink('home')}
+            >
+              Home
+            </a>
+          </li>
+          <li className="header__nav-item">
+            <a 
+              href="#work" 
+              className={activeLink === 'work' ? 'active' : ''}
+              onClick={() => setActiveLink('work')}
+            >
+              Work
+            </a>
+          </li>
+          <li className="header__nav-item">
+            <a 
+              href="#about" 
+              className={activeLink === 'about' ? 'active' : ''}
+              onClick={() => setActiveLink('about')}
+            >
+              About
+            </a>
+          </li>
+          <li className="header__nav-item">
+            <a 
+              href="#contact" 
+              className={activeLink === 'contact' ? 'active' : ''}
+              onClick={() => setActiveLink('contact')}
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 };
