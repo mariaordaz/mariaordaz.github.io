@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import './Footer.css';
 
 const Footer = () => {
@@ -14,7 +14,7 @@ const Footer = () => {
           <FaGithub className="social-icon" />
         </a>
         <a href="https://linkedin.com/in/tu-perfil" target="_blank" rel="noopener noreferrer">
-          <FaLinkedinIn className="social-icon" />
+          <FaLinkedin className="social-icon" />
         </a>
         <a href="https://wa.me/tunumerodetelefono" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp className="social-icon" />
