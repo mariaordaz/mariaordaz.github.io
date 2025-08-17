@@ -20,14 +20,9 @@ const Header = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-  
+
   return (
-    <header className="header">
-      {/* El resto de tu JSX permanece igual */}
-      <div className="header__logo">
-        <a href="/">mariaordaz</a>
-      </div>
-      
+    <header className="header">      
       <nav className="header__nav">
         <ul className="header__nav-list">
           <li className="header__nav-item">
