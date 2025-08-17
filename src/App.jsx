@@ -8,8 +8,7 @@ function App() {
       <Header />
       <main className="hero-section">
         <h1 className="hero-text">
-          <span className="hero-line">Hi.</span>
-          <span className="hero-line">I'm Maria.</span>
+          <span className="hero-line">Hi. I'm Maria.</span>
           <span className="hero-line">A Software Developer</span>
         </h1>
       </main>
