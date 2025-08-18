@@ -16,7 +16,7 @@
 }
 /* Aplicar Englebert solo al texto principal */
 .hero-text {
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   font-weight: 400; /* Englebert no tiene bold, usaremos tamaño y sombra */
   font-size: clamp(3rem, 10vw, 7rem);
   letter-spacing: 1px;
