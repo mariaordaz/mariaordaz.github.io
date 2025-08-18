@@ -1,6 +1,6 @@
-/* Importa la fuente Work Sans */
+/* Importa la fuente Montserrat */
 .app-container {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
   background-color: #f8f8f8; /* Color de fondo claro */
   color: #333;
@@ -17,28 +17,10 @@
 /* Aplicar Englebert solo al texto principal */
 .hero-text {
   font-family: 'Kavoon', sans-serif;
-  font-weight: 700; /* Englebert no tiene bold, usaremos tamaño y sombra */
+  font-weight: 400; /* Englebert no tiene bold, usaremos tamaño y sombra */
   font-size: clamp(3rem, 10vw, 7rem);
   letter-spacing: 1px;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-  line-height: 1.2;
-  display: flex;
-  flex-direction: column;
-}
-.hero-line:nth-child(2) {
-  position: relative;
-  display: inline-block;
-}
-
-.hero-line:nth-child(2)::after {
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: transparent;
-  text-shadow: 1px 1px 0 rgba(0,0,0,0.2),
-               -1px -1px 0 rgba(0,0,0,0.2);
-  z-index: -1;
 }
 
 /* Estilo específico para cada línea */
@@ -56,6 +38,14 @@
   font-size: 0.7em;
   letter-spacing: 2px;
   margin-top: 1rem;
+}
+
+.hero-text {
+  font-weight: 700;
+  font-size: clamp(2rem, 8vw, 6rem);
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-line {
